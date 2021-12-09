@@ -1,0 +1,31 @@
+\section{Revue de littérature}~\label{sec:revue}
+Afin de montrer la pertinence de ce travail dans la littérature, nous montront les techniques de modélisation du mouvement pour les \ac{VSS} les plus populaires dans la littérature dans la~\autoref{sec:revue_planaires}. 
+Ensuite, nous présentons les travaux pertinents par rapport aux forces de contact dans la~\autoref{sec:revue_contact}.
+
+\subsection{Modèles de mouvement}~\label{sec:revue_planaires}
+La modélisation du mouvement des \ac{VSS} est un problème actuel dans la littérature scientifique.
+En raison de leur simplicité et de leur résilience à l'identification de paramètres éronnés, les modèles cinématiques empiriques sont actuellement les plus populaires, tel que celui présenté par~\citet{Mandow2007}.
+Alternativement, le modèle présenté par~\citet{Seegmiller2014} permet de modéliser le comportement dynamique du robot comme des perturbations subies par un modèle cinématique simple connaît également de la popularité dans la littérature.
+
+Bien que simples, ces modèles font l'hypothèse que le robot navigue sur un terrain plat et dur, ce qui est généralement faux dans le cadre de la conduite hors route.
+\citet{Rabiee2019} ont introduit un modèle croisé entre la cinématique et la dynamique.
+Dans ce modèle, l'accélération des roues sont utilisées pour minimiser le système d'équations de la dynamique du corps du \ac{VSS}.
+Une fois le système d'équations minimisé, les valeurs sont introduites dans un modèle cinématique analogique à~\citep{Mandow2007} pour prédire le déplacement du véhicule.
+Alternativement, \citet{Seegmiller2016} ont présenté une formulation générale permettant de modéliser le mouvement de tout types de véhicules en minimisant le calcul et en offrant une grande précision.
+
+\subsection{Forces de contact}~\label{sec:revue_contact}
+Tous les modèles dynamiques de véhicules nécessitent de modéliser les forces de contact des roues des véhicules.
+Il existe un grand nombre de ce genre de modèles dans la littérature ainsi qu'une grande variété dans leur complexité.
+Le modèle le plus simple est le modèle linéaire, qui assume une relation linéaire entre la vitesse du point de contact et la force de friction des roues~\citep{Pacejka2012}. 
+Un second modèle populaire est appelé la \textit{Magic Formula}, proposé par~\citet{Pacejka2012}.
+Ce modèle empirique permet de modéliser la perte de friction causée par le passage de friction statique à friction dynamique et est très populaire pour les véhicules routiers~\citep{Brach2011}.
+Une adaptation pour un \ac{VSS} a également été proposée par~\citet{Maclaurin2011}.
+Dans ce travail, l'auteur évalue les paramètres du modèle empirique en fonction de propriétés physiques d'un \ac{VSS} lourd.
+
+Des modèles plus complexes basés sur l'interaction entre les roues et le sol ont aussi été proposés.
+La majorité de ces modèles sont basés sur des travaux pionniers de~\citet{Wong1967}.
+\citet{Ishigami2007} ont proposé un modèle de force de contact permettant de modéliser les forces latérales. 
+
+Bien que plusieurs modèles complexes ont été proposés pour modéliser les forces de contact, les résultats montrés par~\citet{Seegmiller2016} montrent que les modèles linéaires offrent une erreur de modélisation inférieure aux autres modèles sur une longue trajectoire.
+Notre hypothèse est que le nombre élevé de paramètres utilisés dans ces modèles affecte la capacité aux modèles de généraliser sur un grand nombre de conditions différentes.
+Dans ce rapport, nous visons à évaluer l'exactitude des modèles de force de contact linéaires pour modéliser le mouvement des \acp{VSS}.

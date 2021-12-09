@@ -1,0 +1,21 @@
+[0] Config.pm:302> INFO - This is Biber 2.9
+[0] Config.pm:305> INFO - Logfile is 'rapport.blg'
+[19] biber:313> INFO - === Thu Dec  9, 2021, 11:19:29
+[34] Biber.pm:371> INFO - Reading 'rapport.bcf'
+[80] Biber.pm:857> INFO - Found 11 citekeys in bib section 0
+[90] Biber.pm:3981> INFO - Processing section 0
+[98] Biber.pm:4154> INFO - Looking for bibtex format file './bibliography.bib' for section 0
+[99] bibtex.pm:1468> INFO - LaTeX decoding ...
+[115] bibtex.pm:1294> INFO - Found BibTeX data source './bibliography.bib'
+[127] Utils.pm:169> WARN - month field 'oct' in entry 'Shamah2001' is not an integer - this will probably not sort properly.
+[146] Utils.pm:169> WARN - month field 'oct' in entry 'Mandow2007' is not an integer - this will probably not sort properly.
+[153] Utils.pm:169> WARN - month field 'may' in entry 'Rabiee2019' is not an integer - this will probably not sort properly.
+[165] Utils.pm:169> WARN - month field 'aug' in entry 'Maclaurin2011' is not an integer - this will probably not sort properly.
+[174] Utils.pm:169> WARN - month field 'mar' in entry 'Ishigami2007' is not an integer - this will probably not sort properly.
+[192] UCollate.pm:68> INFO - Overriding locale 'fr-FR' defaults 'variable = shifted' with 'variable = non-ignorable'
+[192] UCollate.pm:68> INFO - Overriding locale 'fr-FR' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[192] Biber.pm:3809> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'fr-FR'
+[192] Biber.pm:3815> INFO - No sort tailoring available for locale 'fr-FR'
+[201] bbl.pm:617> INFO - Writing 'rapport.bbl' with encoding 'UTF-8'
+[205] bbl.pm:720> INFO - Output to rapport.bbl
+[206] Biber.pm:110> INFO - WARNINGS: 5

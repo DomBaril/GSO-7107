@@ -1,0 +1,53 @@
+\documentclass[conference]{IEEEtran}
+\IEEEoverridecommandlockouts
+% The preceding line is only needed to identify funding in the first footnote. If that is unneeded, please comment it out.
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{algorithmic}
+\usepackage{textcomp}
+
+
+\usepackage[french]{babel}
+\usepackage[utf8]{inputenc}
+
+% Add i.e and e.g commands
+\usepackage{xspace} %smart handling of space in commands
+\newcommand{\ie}{i.e.,\xspace{}}
+\newcommand{\eg}{e.g.,\xspace{}}
+
+
+\input{latexGoodPractices/preamble.tex}
+
+\addbibresource{./bibliography.bib}
+
+\begin{document}
+
+\acrodef{VSS}{véhicules \textit{skid-steer}}
+\acrodef{ICP}{\textit{Iterative Closest Point}}
+
+\title{Rapport GSO-7107\\}
+
+\author{\IEEEauthorblockN{Dominic Baril, Julien Lépine}
+}
+
+\maketitle
+
+\begin{abstract}
+Les modèles dynamiques de mouvement de véhicules sont des outils primordiaux pour le systèmes de prise de décision ainsi que pour la conduite autonome.
+Pour ces modèles, les modèles de force de contact linéaires sont très souvent utilisés pour les véhicules routiers en raison de leur simplicité.
+Dans ce rapport, nous montrons que ces modèles sont adéquats pour les \ac{VSS} malgré leur mouvements latéraux prononcés.
+Pour valider cette hypothèse, nous comparons un modèle de force de contact linéaire avec la force centripète subie par un \ac{VSS} opérant en régime permanent.
+Notre hypothèse est validée pour la conduite à une vitesse \SI{0.5}{\meter\per\second} et pour 10 vitesses angulaires distintes.
+\end{abstract}
+
+\input{src/introduction.tex}
+\input{src/revue.tex}
+\input{src/methodologie.tex}
+\input{src/resultats.tex}
+\input{src/analyse.tex}
+\input{src/conclu.tex}
+
+
+
+\printbibliography
+
+\end{document}

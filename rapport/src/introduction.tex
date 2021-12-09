@@ -1,0 +1,30 @@
+\section{Introduction}~\label{sec:intro}
+Un modèle de mouvement est un outil essentiel pour plusieurs opérations qui impliquent l'utilisation d'une flotte de véhicules.
+En premier lieu, un modèle de mouvement permet d'analyser les forces en jeu dans l'opération d'un véhicule et permet d'analyser l'impact de plusieurs opérations réalisées sur une flotte de véhicules.
+Cette analyse d'impact permet de guider les décisions liées à une flotte de véhicules et donc d'optimiser les coûts financiers et écologiques de la flotte.
+En second lieu, un modèle de mouvement est un fondement critique dans l'automatisation de la conduite de véhicules. 
+Cette tâche permettrait éventuellement d'accomplir plusieurs tâches redondantes sans nécessiter la présence d'un opérateur, ce qui pourrait supporter plusieurs industries qui souffrent de la pénurie de main d'oeuvre actuelle.
+% Trouver 1 ou 2 citations pour statistiques
+Ces modèles peuvent prendre deux formes : cinématiques et dynamiques.
+Les premiers permettent de modéliser la géométrie du mouvement des véhicules et les deuxièmes permettent de modéliser les forces agissant sur les roues des véhicules.
+Les modèles dynamiques sont plus riches et permettent de modéliser une plus grande plage de conditions auxquelles les véhicules sont soumis. 
+
+Le fondement le plus important d'un modèle de mouvement de véhicule terrestre est la géométrie de direction. 
+Dans le cadre de ce cours, nous avons étudié en détails la géométrie dite \textit{Ackerman}, qui est la plus répandue pour les véhicules routiers.
+Dans le cas de la conduite hors route, la géométrie \textit{skid-steer} est également très populaire.
+Pour tourner ce type de véhicule, une différence de vitesse de rotation entre les roues de chaque côté du véhicule est imposée. 
+Les \ac{VSS} offrent plusieurs avantages, notamment la simplicité mécanique, la robustesse, la manoeuvrabilité hors route et la capacité de tourner sur place~\citep{Shamah2001}.
+Toutefois, ces véhicules sont soumis à une friction latérale élevée puisque les roues sont constamment parallèles à la direction longitudinale du véhicule. 
+Comme les modèles de force de contact linéaires sont populaires pour les véhicules \textit{Ackerman}, il serait pertinent d'évaluer leur performance pour les \ac{VSS}, comme ceux-ci sont soumis à des forces latérales élevées.
+
+Les contributions liées à ce rapport sont donc :
+\begin{itemize}
+	\item La formulation d'un modèle dynamique planaire de \ac{VSS};
+	\item L'évaluation de l'exactitude d'un modèle de force de contact linéaire pour les forces latérales subies par le robot.
+\end{itemize}
+La structure du rapport est comme suit :
+Une revue de la littérature connexe à ce travail est présentée dans la~\autoref{sec:revue}.
+La~\autoref{sec:metho} explique la méthodologie utilisée pour atteindre les contributions de ce travail.
+Les résultats sont présentés dans la~\autoref{sec:resultats}.
+Une analyse détaillée des résultats suit à la~\autoref{sec:analyse}.
+Enfin, une conclusion et les travaux futurs sont présentés dans la~\autoref{sec:conclu}.

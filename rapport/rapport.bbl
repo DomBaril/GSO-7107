@@ -1,0 +1,523 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.9 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{Shamah2001}{inproceedings}{}
+      \name{author}{6}{}{%
+        {{hash=40624846022579d05672b765771600d0}{%
+           family={Shamah},
+           familyi={S\bibinitperiod},
+           given={Benjamin},
+           giveni={B\bibinitperiod}}}%
+        {{hash=2285aa69073f8353f88284e11a2b1e49}{%
+           family={Wagner},
+           familyi={W\bibinitperiod},
+           given={Michael\bibnamedelima D},
+           giveni={M\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=4edef494aed65bcfdcc1be6ad990bd26}{%
+           family={Moorehead},
+           familyi={M\bibinitperiod},
+           given={Stewart},
+           giveni={S\bibinitperiod}}}%
+        {{hash=84167886a8b64de1c68c22b9b5ef0e96}{%
+           family={Teza},
+           familyi={T\bibinitperiod},
+           given={James},
+           giveni={J\bibinitperiod}}}%
+        {{hash=0ea75d5c6dc53ec86bfdda603becc235}{%
+           family={Wettergreen},
+           familyi={W\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+        {{hash=2c510951d232b27b07c9a56fcdd8ca44}{%
+           family={Whittaker},
+           familyi={W\bibinitperiod},
+           given={William\bibnamedelima L.},
+           giveni={W\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=6767e2a7c6e6e19729f223f580b2f231}{%
+           family={McKee},
+           familyi={M\bibinitperiod},
+           given={Gerard\bibnamedelima T.},
+           giveni={G\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=b4dd45a5c965f5d70576e1028797a569}{%
+           family={Schenker},
+           familyi={S\bibinitperiod},
+           given={Paul\bibnamedelima S.},
+           giveni={P\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \strng{namehash}{3718873f9d15cb9a42f304f90e47c62c}
+      \strng{fullhash}{970b4eb3e134fb4848519e6b879b9737}
+      \strng{bibnamehash}{970b4eb3e134fb4848519e6b879b9737}
+      \strng{authorbibnamehash}{970b4eb3e134fb4848519e6b879b9737}
+      \strng{authornamehash}{3718873f9d15cb9a42f304f90e47c62c}
+      \strng{authorfullhash}{970b4eb3e134fb4848519e6b879b9737}
+      \strng{editorbibnamehash}{98bc0a4661bd19e0ff02ef72f0495792}
+      \strng{editornamehash}{e50d7164208ffb4b4064aea7e0468cbe}
+      \strng{editorfullhash}{98bc0a4661bd19e0ff02ef72f0495792}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proc. SPIE 4571, Sensor Fusion and Decentralized Control in Robotic Systems IV}
+      \field{month}{10}
+      \field{title}{{Steering and control of a passively articulated robot}}
+      \field{year}{2001}
+      \field{pages}{96\bibrangedash 107}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1117/12.444150
+      \endverb
+      \verb{urlraw}
+      \verb http://proceedings.spiedigitallibrary.org/proceeding.aspx?articleid=901126
+      \endverb
+      \verb{url}
+      \verb http://proceedings.spiedigitallibrary.org/proceeding.aspx?articleid=901126
+      \endverb
+    \endentry
+    \entry{Mandow2007}{inproceedings}{}
+      \name{author}{6}{}{%
+        {{hash=140d4a3d39f9f1896f177c1d3f4bb231}{%
+           family={Mandow},
+           familyi={M\bibinitperiod},
+           given={Anthony},
+           giveni={A\bibinitperiod}}}%
+        {{hash=9001a64a35be68130bf4f6b427248a71}{%
+           family={Martinez},
+           familyi={M\bibinitperiod},
+           given={Jorge\bibnamedelima L.},
+           giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=bae31a1cbc57ea7afa734ac61ac0fbda}{%
+           family={Morales},
+           familyi={M\bibinitperiod},
+           given={Jesus},
+           giveni={J\bibinitperiod}}}%
+        {{hash=3e2f9dd0ad2132fa8820872b51ee7b38}{%
+           family={Blanco},
+           familyi={B\bibinitperiod},
+           given={Jose\bibnamedelima L.},
+           giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=0294af1ef6b29d5f190fab272265657b}{%
+           family={Garcia-Cerezo},
+           familyi={G\bibinithyphendelim C\bibinitperiod},
+           given={Alfonso},
+           giveni={A\bibinitperiod}}}%
+        {{hash=2194b627c494520fd05274d477ee6c9f}{%
+           family={Gonzalez},
+           familyi={G\bibinitperiod},
+           given={Javier},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{0a47b3c8bfc136f244a91778859cd6b2}
+      \strng{fullhash}{a9d46f26de46d237be5ca3f918305dc1}
+      \strng{bibnamehash}{a9d46f26de46d237be5ca3f918305dc1}
+      \strng{authorbibnamehash}{a9d46f26de46d237be5ca3f918305dc1}
+      \strng{authornamehash}{0a47b3c8bfc136f244a91778859cd6b2}
+      \strng{authorfullhash}{a9d46f26de46d237be5ca3f918305dc1}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This work aims at improving real-time motion control and dead-reckoning of wheeled skid-steer vehicles by considering the effects of slippage, but without introducing the complexity of dynamics computations in the loop. This traction scheme is found both in many off-the-shelf mobile robots due to its mechanical simplicity and in outdoor applications due to its maneuverability. In previous works, we reported a method to experimentally obtain an optimized kinematic model for skid-steer tracked vehicles based on the boundedness of the instantaneous centers of rotation (ICRs) of treads on the motion plane. This paper provides further insight on this method, which is now proposed for wheeled skid-steer vehicles. It has been successfully applied to a popular research robotic platform, pioneer P3-AT, with different kinds of tires and terrain types.}
+      \field{booktitle}{2007 IEEE/RSJ International Conference on Intelligent Robots and Systems}
+      \field{isbn}{978-1-4244-0911-2}
+      \field{month}{10}
+      \field{title}{{Experimental kinematics for wheeled skid-steer mobile robots}}
+      \field{year}{2007}
+      \field{pages}{1222\bibrangedash 1227}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1109/IROS.2007.4399139
+      \endverb
+      \verb{urlraw}
+      \verb http://ieeexplore.ieee.org/document/4399139/
+      \endverb
+      \verb{url}
+      \verb http://ieeexplore.ieee.org/document/4399139/
+      \endverb
+    \endentry
+    \entry{Seegmiller2014}{article}{}
+      \name{author}{1}{}{%
+        {{hash=89d9cf046f3e056fa3e3b95377fbd906}{%
+           family={Seegmiller},
+           familyi={S\bibinitperiod},
+           given={Neal\bibnamedelima A},
+           giveni={N\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{89d9cf046f3e056fa3e3b95377fbd906}
+      \strng{fullhash}{89d9cf046f3e056fa3e3b95377fbd906}
+      \strng{bibnamehash}{89d9cf046f3e056fa3e3b95377fbd906}
+      \strng{authorbibnamehash}{89d9cf046f3e056fa3e3b95377fbd906}
+      \strng{authornamehash}{89d9cf046f3e056fa3e3b95377fbd906}
+      \strng{authorfullhash}{89d9cf046f3e056fa3e3b95377fbd906}
+      \field{sortinit}{4}
+      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Dynamic Model Formulation and Calibration for Wheeled Mobile Robots for Wheeled Mobile Robots}}
+      \field{year}{2014}
+      \field{pages}{126}
+      \range{pages}{1}
+      \verb{urlraw}
+      \verb https://www.ri.cmu.edu/publications/dynamic-model-formulation-and-calibration-for-wheeled-mobile-robots/
+      \endverb
+      \verb{url}
+      \verb https://www.ri.cmu.edu/publications/dynamic-model-formulation-and-calibration-for-wheeled-mobile-robots/
+      \endverb
+    \endentry
+    \entry{Rabiee2019}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=97765c0ec59b9ca9ebf41274afb6da02}{%
+           family={Rabiee},
+           familyi={R\bibinitperiod},
+           given={Sadegh},
+           giveni={S\bibinitperiod}}}%
+        {{hash=7e660c53d11d5db0e883c5abad7222ee}{%
+           family={Biswas},
+           familyi={B\bibinitperiod},
+           given={Joydeep},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{2f6f664595023deeba95c6fd62b76b40}
+      \strng{fullhash}{f29dfd112cc17ac2550f359ddf1cf43e}
+      \strng{bibnamehash}{f29dfd112cc17ac2550f359ddf1cf43e}
+      \strng{authorbibnamehash}{f29dfd112cc17ac2550f359ddf1cf43e}
+      \strng{authornamehash}{2f6f664595023deeba95c6fd62b76b40}
+      \strng{authorfullhash}{f29dfd112cc17ac2550f359ddf1cf43e}
+      \field{sortinit}{6}
+      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Skid-steer drive systems are widely used in mobile robot platforms. Such systems are subject to significant slippage and skidding during normal operation due to their nature. The ability to predict and compensatefor such slippages in the forward kinematics of these types of robots is of great importance and provides the means for accurate control and safe navigation. In this work, we propose a new kinematic model capable of slip prediction for skid-steer wheeled mobile robots (SSWM Rs). The proposed model outperforms the state-of-the-art in terms of both translational and rotational prediction error on a dataset composed of more than 6 km worth of trajectories traversed by a skid-steer robot. We also publicly release our dataset to serve as a benchmark for system identification and model learning research for SSWMRs.}
+      \field{booktitle}{2019 International Conference on Robotics and Automation (ICRA)}
+      \field{isbn}{978-1-5386-6027-0}
+      \field{issn}{10504729}
+      \field{month}{5}
+      \field{title}{{A Friction-Based Kinematic Model for Skid-Steer Wheeled Mobile Robots}}
+      \field{volume}{2019-May}
+      \field{year}{2019}
+      \field{pages}{8563\bibrangedash 8569}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1109/ICRA.2019.8794216
+      \endverb
+      \verb{urlraw}
+      \verb https://ieeexplore.ieee.org/document/8794216/
+      \endverb
+      \verb{url}
+      \verb https://ieeexplore.ieee.org/document/8794216/
+      \endverb
+      \keyw{Contact Modeling,Kinematics,Wheeled Robots}
+    \endentry
+    \entry{Seegmiller2016}{article}{}
+      \name{author}{2}{}{%
+        {{hash=9c2e3b257565a3384bc2302c5510461c}{%
+           family={Seegmiller},
+           familyi={S\bibinitperiod},
+           given={Neal},
+           giveni={N\bibinitperiod}}}%
+        {{hash=d2904722ee9ec7753a1f84842ea03ebc}{%
+           family={Kelly},
+           familyi={K\bibinitperiod},
+           given={Alonzo},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{dfea846cf861aabd1a1870f3d9d929fe}
+      \strng{fullhash}{207b4ba0cd967cf89dee3b6c1a98e703}
+      \strng{bibnamehash}{207b4ba0cd967cf89dee3b6c1a98e703}
+      \strng{authorbibnamehash}{207b4ba0cd967cf89dee3b6c1a98e703}
+      \strng{authornamehash}{dfea846cf861aabd1a1870f3d9d929fe}
+      \strng{authorfullhash}{207b4ba0cd967cf89dee3b6c1a98e703}
+      \field{sortinit}{9}
+      \field{sortinithash}{1dd72ab054147731c9d824b49aba0534}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Advances in hardware design have made wheeled mobile robots (WMRs) exceptionally mobile. To fully exploit this mobility, we present a novel dynamic model formulation for use in WMR planning, control, and estimation systems. The formulation is high fidelity, general, modular, and fast. It builds on our prior work on recursive methods for 3-D kinematics derivation and constrained motion prediction using differential algebraic equations. It is stable, even for large integration steps, and can enforce realistic nonlinear models of wheel-terrain interaction. Simulation tests show our dynamic models to be more functional, stable, and efficient than common alternatives. Simulations can run over 1K× faster than real time on an ordinary PC. Experimental results on multiple platforms and terrain types show that, once calibrated, our models predict motion accurately. To facilitate their use, we have released open-source MATLAB and C++ libraries implementing our modeling/simulation methods.}
+      \field{issn}{15523098}
+      \field{journaltitle}{IEEE Transactions on Robotics}
+      \field{number}{3}
+      \field{title}{{High-Fidelity Yet Fast Dynamic Models of Wheeled Mobile Robots}}
+      \field{volume}{32}
+      \field{year}{2016}
+      \field{pages}{614\bibrangedash 625}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1109/TRO.2016.2546310
+      \endverb
+      \keyw{Dynamics,kinematics,model identification,wheel slip,wheel-terrain interaction,wheeled mobile robots}
+    \endentry
+    \entry{Pacejka2012}{book}{}
+      \name{author}{1}{}{%
+        {{hash=5339f0eb21a903f86d94f875925d4f66}{%
+           family={Pacejka},
+           familyi={P\bibinitperiod},
+           given={Hans},
+           giveni={H\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{5339f0eb21a903f86d94f875925d4f66}
+      \strng{fullhash}{5339f0eb21a903f86d94f875925d4f66}
+      \strng{bibnamehash}{5339f0eb21a903f86d94f875925d4f66}
+      \strng{authorbibnamehash}{5339f0eb21a903f86d94f875925d4f66}
+      \strng{authornamehash}{5339f0eb21a903f86d94f875925d4f66}
+      \strng{authorfullhash}{5339f0eb21a903f86d94f875925d4f66}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The definitive book on tire mechanics by the acknowledged world expert. {©} 2012 Hans Pacejka Published by Elsevier Ltd All rights reserved.}
+      \field{booktitle}{Tire and Vehicle Dynamics}
+      \field{isbn}{9780080970165}
+      \field{issn}{26883627}
+      \field{title}{{Tire and Vehicle Dynamics}}
+      \field{year}{2012}
+      \verb{doi}
+      \verb 10.1016/C2010-0-68548-8
+      \endverb
+      \verb{urlraw}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/C20100685488
+      \endverb
+      \verb{url}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/C20100685488
+      \endverb
+    \endentry
+    \entry{Brach2011}{article}{}
+      \name{author}{2}{}{%
+        {{hash=49a83a78937fabb322090f4205634684}{%
+           family={Brach},
+           familyi={B\bibinitperiod},
+           given={Raymond},
+           giveni={R\bibinitperiod}}}%
+        {{hash=3ed0ca740e83cc954b35208435b8b848}{%
+           family={Brach},
+           familyi={B\bibinitperiod},
+           given={Matthew},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{4f42e877bd5e80ea71e41f8053275758}
+      \strng{fullhash}{825cf56dea18051731d586dadd3fad9c}
+      \strng{bibnamehash}{825cf56dea18051731d586dadd3fad9c}
+      \strng{authorbibnamehash}{825cf56dea18051731d586dadd3fad9c}
+      \strng{authornamehash}{4f42e877bd5e80ea71e41f8053275758}
+      \strng{authorfullhash}{825cf56dea18051731d586dadd3fad9c}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The tire-force ellipse and tire-force circle (more frequently referred to as the friction ellipse and the friction circle, respectively) have been used for many years to qualitatively illustrate the concept of tire-road force interaction, particularly the force-limiting behavior for combined braking and steering (combined tire forces). Equations of the tire-force circle/ellipse, or, more specifically, the force limit envelope, in its idealized form have also been used in the development of quantitative models of combined tire forces used in vehicle dynamic simulation software. Comparisons of this idealized tire-force circle/ellipse using a simple bilinear tire force model and using actual tire data show that it provides only a limited, simplified notion of combined tire forces due to its lack of dependence upon the slip angle and traction slip. Furthermore, these comparisons show that the idealized tire-force circle/ellipse does not represent actual tire behavior, even approximately, since it is incapable of modeling the nonlinear behavior of tires. For this reason, the idealized tire-force circle/ellipse should not be used as a quantitative tire-force model particularly because superior validated models of nonlinear behavior of tires exist and are widely available. Here a development is presented of a more realistic version of the tire-force circle/ellipse which incorporates slip angle, traction slip and the actual nonlinear tire-force. Because of the complexity of nonlinear tire force behavior the F y - F x force relationship is not a true ellipse and the force limit is dependent on the kinematic slip angle and traction slip variables, {Î}± and s, respectively. {©} 2011 SAE International.}
+      \field{issn}{0148-7191}
+      \field{journaltitle}{SAE 2011 World Congress and Exhibition}
+      \field{title}{{The tire-force ellipse (Friction Ellipse) and tire characteristics}}
+      \field{year}{2011}
+      \verb{doi}
+      \verb 10.4271/2011-01-0094
+      \endverb
+    \endentry
+    \entry{Maclaurin2011}{article}{}
+      \name{author}{1}{}{%
+        {{hash=32cee975f3390892612d86bc2a382d31}{%
+           family={Maclaurin},
+           familyi={M\bibinitperiod},
+           given={Bruce},
+           giveni={B\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {ISTVS}%
+      }
+      \strng{namehash}{32cee975f3390892612d86bc2a382d31}
+      \strng{fullhash}{32cee975f3390892612d86bc2a382d31}
+      \strng{bibnamehash}{32cee975f3390892612d86bc2a382d31}
+      \strng{authorbibnamehash}{32cee975f3390892612d86bc2a382d31}
+      \strng{authornamehash}{32cee975f3390892612d86bc2a382d31}
+      \strng{authorfullhash}{32cee975f3390892612d86bc2a382d31}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The paper describes a computer model for predicting the steering performance and power flows of a notional skid steered tracked vehicle. The force/slip characteristics of the rubber track pads are calculated by means of the so-called Magic Formula. Relevant parameters for the Magic Formula are derived from the limited amount of data available from traction tests with a tracked vehicle on a hard surface. The computer model considers the vehicle in steady state motion on curves of various radii and allows for lateral and longitudinal weight transfer, roll and pitch motions and the effects of track tension forces. Vehicle dimensions, Magic Formula parameters and the equations of motion are set up in a Microsoft Excel spreadsheet and solutions obtained using the Solver routine. Model outputs are described in terms of driver control input and various power flows against lateral acceleration. Maximum lateral acceleration is generally limited by the available engine power. In some conditions the outer track sprocket could be transmitting almost twice the maximum net engine power. For vehicles with a single electric motor/inverter driving each sprocket, these units would need to be able to transmit these high intermittent powers. {©} 2011 ISTVS. Published by Elsevier Ltd. All rights reserved.}
+      \field{issn}{00224898}
+      \field{journaltitle}{Journal of Terramechanics}
+      \field{month}{8}
+      \field{number}{4}
+      \field{title}{{A skid steering model using the Magic Formula}}
+      \field{volume}{48}
+      \field{year}{2011}
+      \field{pages}{247\bibrangedash 263}
+      \range{pages}{17}
+      \verb{doi}
+      \verb 10.1016/j.jterra.2011.04.002
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1016/j.jterra.2011.04.002 https://linkinghub.elsevier.com/retrieve/pii/S0022489811000218
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1016/j.jterra.2011.04.002%20https://linkinghub.elsevier.com/retrieve/pii/S0022489811000218
+      \endverb
+      \keyw{Double differential,Magic Formula,Power flows,Skid steering,Steering response,Tracked vehicle}
+    \endentry
+    \entry{Wong1967}{article}{}
+      \name{author}{2}{}{%
+        {{hash=0d2e3fc6bdba0a2b302f63ead8030d01}{%
+           family={Wong},
+           familyi={W\bibinitperiod},
+           given={Jo\bibnamedelima Yung},
+           giveni={J\bibinitperiod\bibinitdelim Y\bibinitperiod}}}%
+        {{hash=3c4270b5891faf545a4ef8c2ad4423e9}{%
+           family={Reece},
+           familyi={R\bibinitperiod},
+           given={A.\bibnamedelimi R.},
+           giveni={A\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \strng{namehash}{c30656888c5f11dc308f9738c39fb71d}
+      \strng{fullhash}{403fab264dda2a123b60517920a5f33b}
+      \strng{bibnamehash}{403fab264dda2a123b60517920a5f33b}
+      \strng{authorbibnamehash}{403fab264dda2a123b60517920a5f33b}
+      \strng{authornamehash}{c30656888c5f11dc308f9738c39fb71d}
+      \strng{authorfullhash}{403fab264dda2a123b60517920a5f33b}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A towed wheel is defined as one which has zero torque at the axle. Its performance is completely defined by the force required to drag it along and the degree of skid which results. In order to predict these in terms of soil properties and wheel dimensions it is necessary to analyse the basic characteristics of the distribution of radial and tangential stresses on the soil-wheel interface of a towed wheel. {©} 1967.}
+      \field{issn}{00224898}
+      \field{journaltitle}{Journal of Terramechanics}
+      \field{number}{2}
+      \field{title}{{Prediction of rigid wheel performance based on the analysis of soil-wheel stresses. Part II. Performance of towed rigid wheels}}
+      \field{volume}{4}
+      \field{year}{1967}
+      \field{pages}{7\bibrangedash 25}
+      \range{pages}{19}
+      \verb{doi}
+      \verb 10.1016/0022-4898(67)90047-X
+      \endverb
+    \endentry
+    \entry{Ishigami2007}{article}{}
+      \name{author}{4}{}{%
+        {{hash=a1aafad9aed717bfbfe871c65d887ddd}{%
+           family={Ishigami},
+           familyi={I\bibinitperiod},
+           given={Genya},
+           giveni={G\bibinitperiod}}}%
+        {{hash=c2d669e0d82988a00db0a2faa83d520f}{%
+           family={Miwa},
+           familyi={M\bibinitperiod},
+           given={Akiko},
+           giveni={A\bibinitperiod}}}%
+        {{hash=6cc0209b21569eed2ec5d5858878183e}{%
+           family={Nagatani},
+           familyi={N\bibinitperiod},
+           given={Keiji},
+           giveni={K\bibinitperiod}}}%
+        {{hash=00f2f390e4f769bd7ba816b64972b509}{%
+           family={Yoshida},
+           familyi={Y\bibinitperiod},
+           given={Kazuya},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{16cfebd418e7b118c9d3ad4962b9edcb}
+      \strng{fullhash}{ee49094fa4c83eb52d70f18a17914062}
+      \strng{bibnamehash}{ee49094fa4c83eb52d70f18a17914062}
+      \strng{authorbibnamehash}{ee49094fa4c83eb52d70f18a17914062}
+      \strng{authornamehash}{16cfebd418e7b118c9d3ad4962b9edcb}
+      \strng{authorfullhash}{ee49094fa4c83eb52d70f18a17914062}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The DARPA Urban Challenge was a competition to develop autonomous vehicles capable of safely, reliably, and robustly driving in traffic. In this article we introduce Boss, the autonomous vehicle that won the challenge. Boss is a complex artificially intelligent software system embodied in a 2007 Chevy Tahoe. To navigate safely, the vehicle builds a model of the world around it in real time. This model is used to generate safe routes and motion plans both on roads and in unstructured zones. An essential part of Boss's success stems from its ability to safely handle both abnormal situations and system glitches.}
+      \field{issn}{15564959}
+      \field{journaltitle}{Journal of Field Robotics}
+      \field{month}{3}
+      \field{number}{3}
+      \field{title}{{Terramechanics-based model for steering maneuver of planetary exploration rovers on loose soil}}
+      \field{volume}{24}
+      \field{year}{2007}
+      \field{pages}{233\bibrangedash 250}
+      \range{pages}{18}
+      \verb{doi}
+      \verb 10.1002/rob.20187
+      \endverb
+      \verb{urlraw}
+      \verb http://onlinelibrary.wiley.com/doi/10.1002/rob.21514/abstract https://onlinelibrary.wiley.com/doi/10.1002/rob.20187
+      \endverb
+      \verb{url}
+      \verb http://onlinelibrary.wiley.com/doi/10.1002/rob.21514/abstract%20https://onlinelibrary.wiley.com/doi/10.1002/rob.20187
+      \endverb
+    \endentry
+    \entry{Pomerleau2015}{book}{}
+      \name{author}{3}{}{%
+        {{hash=f9ae100aacf5dbdd9ed35139a9919614}{%
+           family={Pomerleau},
+           familyi={P\bibinitperiod},
+           given={Fran{ç}ois},
+           giveni={F\bibinitperiod}}}%
+        {{hash=05c5b6f76d792212ca5d644bb169272d}{%
+           family={Colas},
+           familyi={C\bibinitperiod},
+           given={Francis},
+           giveni={F\bibinitperiod}}}%
+        {{hash=6ee8958bbf32527489012d8ca7c95ee3}{%
+           family={Siegwart},
+           familyi={S\bibinitperiod},
+           given={Roland},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {now Publishers Inc}%
+      }
+      \strng{namehash}{f5218bbfca4d02a2772f144d95fc462a}
+      \strng{fullhash}{2a54c27774f6056ec9289484979d4310}
+      \strng{bibnamehash}{2a54c27774f6056ec9289484979d4310}
+      \strng{authorbibnamehash}{2a54c27774f6056ec9289484979d4310}
+      \strng{authornamehash}{f5218bbfca4d02a2772f144d95fc462a}
+      \strng{authorfullhash}{2a54c27774f6056ec9289484979d4310}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{A Review of Point Cloud Registration Algorithms for Mobile Robotics}
+      \field{title}{{A Review of Point Cloud Registration Algorithms for Mobile Robotics}}
+      \field{year}{2015}
+      \verb{doi}
+      \verb 10.1561/9781680830255
+      \endverb
+      \verb{urlraw}
+      \verb https://ieeexplore.ieee.org/document/8187578
+      \endverb
+      \verb{url}
+      \verb https://ieeexplore.ieee.org/document/8187578
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
