@@ -517,6 +517,183 @@
       \verb https://ieeexplore.ieee.org/document/8187578
       \endverb
     \endentry
+    \entry{Huskic2019}{article}{}
+      \name{author}{3}{}{%
+        {{hash=c8ac8b9a85873ebae3615689e7248cfe}{%
+           family={Huski{ć}},
+           familyi={H\bibinitperiod},
+           given={Goran},
+           giveni={G\bibinitperiod}}}%
+        {{hash=85db119b6dd9c96442fae65d26b04d21}{%
+           family={Buck},
+           familyi={B\bibinitperiod},
+           given={Sebastian},
+           giveni={S\bibinitperiod}}}%
+        {{hash=650741453181162d551d5db838d0856f}{%
+           family={Zell},
+           familyi={Z\bibinitperiod},
+           given={Andreas},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{01410db6911c14203f055523030b7494}
+      \strng{fullhash}{6c7ea804e01f41e5a25b3afcda27a6bd}
+      \strng{bibnamehash}{6c7ea804e01f41e5a25b3afcda27a6bd}
+      \strng{authorbibnamehash}{6c7ea804e01f41e5a25b3afcda27a6bd}
+      \strng{authornamehash}{01410db6911c14203f055523030b7494}
+      \strng{authorfullhash}{6c7ea804e01f41e5a25b3afcda27a6bd}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We present GeRoNa (Generic Robot Navigation), a modular navigation framework for wheeled mobile robots. This framework supports many different kinematic configurations of wheeled robots and was experimentally verified on eight different real-world robotic platforms, including Ackermann steering, bi-steerable, skid-steered, differentially-driven and omnidirectional vehicles. The real-world experiments include indoor and outdoor tests, on various terrain types, driving up to 6 m/s. The framework provides A*-based path planning algorithms, high speed obstacle avoidance (tested at speeds up to 2.5 m/s) and twelve different control algorithms for path following. In this paper, we present the whole framework, detail every controller and provide an extensive experimental evaluation of the most important components. The entire framework is already open-source available, written in C++ and based on ROS (Robot Operating System).}
+      \field{issn}{15730409}
+      \field{journaltitle}{Journal of Intelligent and Robotic Systems: Theory and Applications}
+      \field{month}{8}
+      \field{number}{2}
+      \field{title}{{GeRoNa: Generic Robot Navigation: A Modular Framework for Robot Navigation and Control}}
+      \field{volume}{95}
+      \field{year}{2019}
+      \field{pages}{419\bibrangedash 442}
+      \range{pages}{24}
+      \verb{doi}
+      \verb 10.1007/s10846-018-0951-0
+      \endverb
+      \verb{urlraw}
+      \verb http://link.springer.com/10.1007/s10846-018-0951-0
+      \endverb
+      \verb{url}
+      \verb http://link.springer.com/10.1007/s10846-018-0951-0
+      \endverb
+      \keyw{Control,Framework,Navigation,Planning,Wheeled mobile robots}
+    \endentry
+    \entry{Baril2020}{inproceedings}{}
+      \name{author}{9}{}{%
+        {{hash=c31b2f9c4ca1e63bb443e8147ede3be7}{%
+           family={Baril},
+           familyi={B\bibinitperiod},
+           given={Dominic},
+           giveni={D\bibinitperiod}}}%
+        {{hash=a94f0d169f3ef2e8d8fe76a712a9036a}{%
+           family={Grondin},
+           familyi={G\bibinitperiod},
+           given={Vincent},
+           giveni={V\bibinitperiod}}}%
+        {{hash=f4d301bb8e0846a6ffa484d3d4b2124f}{%
+           family={Deschenes},
+           familyi={D\bibinitperiod},
+           given={Simon-Pierre},
+           giveni={S\bibinithyphendelim P\bibinitperiod}}}%
+        {{hash=dea5b23d923654b7a460e197a4c58a35}{%
+           family={Laconte},
+           familyi={L\bibinitperiod},
+           given={Johann},
+           giveni={J\bibinitperiod}}}%
+        {{hash=5bc64659398b2770b69882c98aaeb28e}{%
+           family={Vaidis},
+           familyi={V\bibinitperiod},
+           given={Maxime},
+           giveni={M\bibinitperiod}}}%
+        {{hash=dfa176820fba04bc6b1436bc11b1fd59}{%
+           family={Kubelka},
+           familyi={K\bibinitperiod},
+           given={Vladimir},
+           giveni={V\bibinitperiod}}}%
+        {{hash=86242defb7e7d1c158f0d9a87a028fe2}{%
+           family={Gallant},
+           familyi={G\bibinitperiod},
+           given={Andre},
+           giveni={A\bibinitperiod}}}%
+        {{hash=f6fe96d5fbd99848c75f7e75975bf475}{%
+           family={Giguere},
+           familyi={G\bibinitperiod},
+           given={Philippe},
+           giveni={P\bibinitperiod}}}%
+        {{hash=a06efa7c84bbbffc9b4f65d01e81c9e1}{%
+           family={Pomerleau},
+           familyi={P\bibinitperiod},
+           given={Francois},
+           giveni={F\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{20640960a21d493908ae372f62376dfa}
+      \strng{fullhash}{4c0efad5429dbef1e972ae019886d6d0}
+      \strng{bibnamehash}{4c0efad5429dbef1e972ae019886d6d0}
+      \strng{authorbibnamehash}{4c0efad5429dbef1e972ae019886d6d0}
+      \strng{authornamehash}{20640960a21d493908ae372f62376dfa}
+      \strng{authorfullhash}{4c0efad5429dbef1e972ae019886d6d0}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In subarctic and arctic areas, large and heavy skid-steered robots are preferred for their robustness and ability to operate on difficult terrain. State estimation, motion control and path planning for these robots rely on accurate odometry models based on wheel velocities. However, the state-of-the-art odometry models for skid-steer mobile robots (SSMRs) have usually been tested on relatively lightweight platforms. In this paper, we focus on how these models perform when deployed on a large and heavy (590 kg) SSMR. We collected more than 2 km of data on both snow and concrete. We compare the ideal differential-drive, extended differential-drive, radius-of-curvature-based, and full linear kinematic models commonly deployed for SSMRs. Each of the models is fine-tuned by searching their optimal parameters on both snow and concrete. We then discuss the relationship between the parameters, the model tuning, and the final accuracy of the models.}
+      \field{booktitle}{2020 17th Conference on Computer and Robot Vision (CRV)}
+      \field{isbn}{978-1-7281-9891-0}
+      \field{issn}{23318422}
+      \field{month}{5}
+      \field{title}{{Evaluation of Skid-Steering Kinematic Models for Subarctic Environments}}
+      \field{year}{2020}
+      \field{pages}{198\bibrangedash 205}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1109/CRV50864.2020.00034
+      \endverb
+      \verb{urlraw}
+      \verb https://ieeexplore.ieee.org/document/9108696/
+      \endverb
+      \verb{url}
+      \verb https://ieeexplore.ieee.org/document/9108696/
+      \endverb
+      \keyw{Mobile robots,Robot kinematics,Skid-steering vehicles,Winter}
+    \endentry
+    \entry{Pentzer2014}{article}{}
+      \name{author}{3}{}{%
+        {{hash=bdbff193b5fae4295579adb91aec8f8c}{%
+           family={Pentzer},
+           familyi={P\bibinitperiod},
+           given={Jesse},
+           giveni={J\bibinitperiod}}}%
+        {{hash=60c5f91359af417eeb0b886caf7602f9}{%
+           family={Brennan},
+           familyi={B\bibinitperiod},
+           given={Sean},
+           giveni={S\bibinitperiod}}}%
+        {{hash=265deb8291a602969ca32062cce235b7}{%
+           family={Reichard},
+           familyi={R\bibinitperiod},
+           given={Karl},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{cb872312df417cf8303e47b1f59ffb8b}
+      \strng{fullhash}{7ba809855df415f56659aed5de0e227c}
+      \strng{bibnamehash}{7ba809855df415f56659aed5de0e227c}
+      \strng{authorbibnamehash}{7ba809855df415f56659aed5de0e227c}
+      \strng{authornamehash}{cb872312df417cf8303e47b1f59ffb8b}
+      \strng{authorfullhash}{7ba809855df415f56659aed5de0e227c}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{15564959}
+      \field{journaltitle}{Journal of Field Robotics}
+      \field{month}{5}
+      \field{number}{3}
+      \field{title}{{Model-based Prediction of Skid-steer Robot Kinematics Using Online Estimation of Track Instantaneous Centers of Rotation}}
+      \field{volume}{31}
+      \field{year}{2014}
+      \field{pages}{455\bibrangedash 476}
+      \range{pages}{22}
+      \verb{doi}
+      \verb 10.1002/rob.21509
+      \endverb
+      \verb{urlraw}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1002/rob.21509 http://doi.wiley.com/10.1002/rob.21509
+      \endverb
+      \verb{url}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1002/rob.21509%20http://doi.wiley.com/10.1002/rob.21509
+      \endverb
+    \endentry
   \enddatalist
 \endrefsection
 \endinput

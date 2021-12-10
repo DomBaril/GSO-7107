@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.2.24)  9 DEC 2021 15:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.2.24)  10 DEC 2021 14:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1730,52 +1730,61 @@ dmap/pdftex.map}
 
 
 ]) (./src/methodologie.tex
-<figs/modele.pdf, id=96, 215.38669pt x 150.79938pt>
+<figs/modele.pdf, id=104, 215.38669pt x 150.79938pt>
 File: figs/modele.pdf Graphic file (type pdf)
 <use figs/modele.pdf>
 Package pdftex.def Info: figs/modele.pdf  used on input line 17.
 (pdftex.def)             Requested size: 247.6778pt x 173.41562pt.
  [2 <./figs/modele.pdf>]
-<figs/warthog.pdf, id=166, 3107.61pt x 2330.7075pt>
+<figs/warthog.pdf, id=174, 3107.61pt x 2330.7075pt>
 File: figs/warthog.pdf Graphic file (type pdf)
 <use figs/warthog.pdf>
-Package pdftex.def Info: figs/warthog.pdf  used on input line 91.
+Package pdftex.def Info: figs/warthog.pdf  used on input line 92.
 (pdftex.def)             Requested size: 206.39685pt x 154.77316pt.
 Package acronym Info: Label `acro:ICP' newly defined as it shall be overridden
-although it is yet undefined on input line 100.
-LaTeX Font Info:    Try loading font information for OT1+pcr on input line 101.
+although it is yet undefined on input line 101.
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 102.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 ))
 (./src/resultats.tex
-<figs/body_vels.pdf, id=177, 361.35pt x 150.5625pt>
+<figs/body_vels.pdf, id=185, 361.35pt x 150.5625pt>
 File: figs/body_vels.pdf Graphic file (type pdf)
 <use figs/body_vels.pdf>
 Package pdftex.def Info: figs/body_vels.pdf  used on input line 15.
 (pdftex.def)             Requested size: 247.6778pt x 103.199pt.
- [3 <./figs/warthog.pdf> <./figs/body_vels.pdf
-
-pdfTeX warning: /usr/bin/pdflatex (file ./figs/body_vels.pdf): PDF inclusion: m
-ultiple pdfs with page group included in a single page
->]
-<figs/slip_angles.pdf, id=207, 361.35pt x 157.78949pt>
+ [3 <./figs/warthog.pdf>]
+<figs/slip_angles.pdf, id=210, 361.35pt x 157.78949pt>
 File: figs/slip_angles.pdf Graphic file (type pdf)
 <use figs/slip_angles.pdf>
 Package pdftex.def Info: figs/slip_angles.pdf  used on input line 33.
 (pdftex.def)             Requested size: 247.6778pt x 108.15256pt.
-<figs/lateral_forces.pdf, id=212, 361.35pt x 157.78949pt>
+<figs/lateral_forces.pdf, id=215, 361.35pt x 157.78949pt>
 File: figs/lateral_forces.pdf Graphic file (type pdf)
 <use figs/lateral_forces.pdf>
 Package pdftex.def Info: figs/lateral_forces.pdf  used on input line 55.
 (pdftex.def)             Requested size: 247.6778pt x 108.15256pt.
-) (./src/analyse.tex) (./src/conclu.tex) [4 <./figs/slip_angles.pdf> <./figs/la
-teral_forces.pdf
+) (./src/analyse.tex
+Underfull \hbox (badness 7907) in paragraph at lines 6--6
+ \OT1/ptm/m/it/10 A. Via-bi-lit[]e et li-mites des mod[]eles et du pro-to-cole
+ []
+
+
+Underfull \hbox (badness 3291) in paragraph at lines 6--14
+\OT1/ptm/m/n/10 de force de contact lin[]eaires per-mettent de mod[]eliser
+ []
+
+[4 <./figs/body_vels.pdf> <./figs/slip_angles.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./figs/slip_angles.pdf): PDF inclusion:
+ multiple pdfs with page group included in a single page
+> <./figs/lateral_forces.pdf
 
 pdfTeX warning: /usr/bin/pdflatex (file ./figs/lateral_forces.pdf): PDF inclusi
 on: multiple pdfs with page group included in a single page
->]
+>]) (./src/conclu.tex) [5]
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -1789,7 +1798,7 @@ Before submitting the final camera ready copy, remember to:
 
 No complaints by nag.
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 53.
-[5
+[6
 
 ]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 53.
@@ -1797,19 +1806,19 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 53.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 53.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 53.
 Package rerunfilecheck Info: File `rapport.out' has not changed.
-(rerunfilecheck)             Checksum: 0D8F601E61C64A6C36D13181E2AB8050;735.
+(rerunfilecheck)             Checksum: B4EB979797D4DD5E73E6A39039A85268;976.
 Package logreq Info: Writing requests to 'rapport.run.xml'.
 \openout1 = `rapport.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 28389 strings out of 492982
- 524238 string characters out of 6134896
- 1043079 words of memory out of 5000000
- 31552 multiletter control sequences out of 15000+600000
+ 28417 strings out of 492982
+ 524902 string characters out of 6134896
+ 1042498 words of memory out of 5000000
+ 31574 multiletter control sequences out of 15000+600000
  578152 words of font info for 132 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 45i,10n,45p,10472b,1761s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 45i,10n,45p,10472b,1757s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist
@@ -1829,10 +1838,10 @@ t/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts
 mes/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb
 ></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/te
 xlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on rapport.pdf (5 pages, 1752004 bytes).
+Output written on rapport.pdf (6 pages, 1761427 bytes).
 PDF statistics:
- 321 PDF objects out of 1000 (max. 8388607)
- 278 compressed objects within 3 object streams
- 45 named destinations out of 1000 (max. 500000)
- 122 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 352 PDF objects out of 1000 (max. 8388607)
+ 307 compressed objects within 4 object streams
+ 51 named destinations out of 1000 (max. 500000)
+ 138 words of extra memory for PDF output out of 10000 (max. 10000000)
 
