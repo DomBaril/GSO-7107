@@ -1953,12 +1953,13 @@
     <bcf:citekey order="27">Pomerleau2015</bcf:citekey>
     <bcf:citekey order="28">Huskic2019</bcf:citekey>
     <bcf:citekey order="29">Seegmiller2014</bcf:citekey>
-    <bcf:citekey order="30">Baril2020</bcf:citekey>
-    <bcf:citekey order="31">Seegmiller2016</bcf:citekey>
+    <bcf:citekey order="30">Seegmiller2014</bcf:citekey>
+    <bcf:citekey order="31">Baril2020</bcf:citekey>
     <bcf:citekey order="32">Seegmiller2016</bcf:citekey>
-    <bcf:citekey order="33">Pacejka2012</bcf:citekey>
-    <bcf:citekey order="34">Ishigami2007</bcf:citekey>
-    <bcf:citekey order="35">Pentzer2014</bcf:citekey>
+    <bcf:citekey order="33">Seegmiller2016</bcf:citekey>
+    <bcf:citekey order="34">Pacejka2012</bcf:citekey>
+    <bcf:citekey order="35">Ishigami2007</bcf:citekey>
+    <bcf:citekey order="36">Pentzer2014</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">

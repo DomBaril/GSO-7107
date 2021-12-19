@@ -1,5 +1,5 @@
 \section{Méthodologie}~\label{sec:metho}
-Afin de permettre valider l'hypothèse que les modèles de force de contact linéaires sont adéquats pour les~\ac{VSS}, un modèle dynamique planaire est détaillé dans la~\autoref{sec:modele}.
+Afin de valider l'hypothèse que les modèles de force de contact linéaires sont adéquats pour les~\ac{VSS}, un modèle dynamique planaire est détaillé dans la~\autoref{sec:modele}.
 Un protocole expérimental permettant d'obtenir les données nécessaires à l'évaluation des forces a été mis en place et exécuté.
 Ce protocole est présenté dans la~\autoref{sec:protocole}.
 
@@ -8,7 +8,7 @@ Afin d'évaluer l'exactitude des modèles de forces de contact linéaires, nous 
 Un repère global ainsi qu'un repère du corps du robot sont définis.
 La totalité des quantités définies dans cette section sont exprimées dans le repère du corps du robot.
 La vitesse de rotation des roues de gauche $\omega_l$ sont identiques, il en est de même pour la vitesse de rotation des roues de droite $\omega_r$. 
-Il est important de noter que bien que le modèle illustré sur la~\autoref{fig:modele} ne comporte que deux roues, ce modèle fonctionne pour tout \ac{VSS} comportant deux roues ou plus sur chaque côté.
+Il est important de noter que bien que le modèle illustré sur la~\autoref{fig:modele} ne comporte que deux roues par côté, ce modèle fonctionne pour tout \ac{VSS} comportant deux roues ou plus sur chaque côté.
 La vitesse du corps du véhicule $\bm v = [v_x, v_y]^T$ comporte une composante longitudinale et une composante latérale.
 Le corps du robot a également une vitesse angulaire $\omega$.
 
@@ -17,7 +17,7 @@ Le corps du robot a également une vitesse angulaire $\omega$.
 	\includegraphics[width=0.48\textwidth]{figs/modele.pdf}
 	\caption{Modèle dynamique planaire d'un \ac{VSS}.
 			Le vecteur de vitesse du corps du robot ainsi que le centre de rotation instantané sont illustrés en bleu.
-			Les angles de glissement sont illustrés en rouge.
+			Un angle de glissement est illustré en rouge.
 			Dans ce modèle, seules les forces latérales subies par les roues sont considérées.}
 	\label{fig:modele}
 \end{figure}
@@ -84,7 +84,7 @@ Afin de valider notre hypothèse pour plusieurs vitesses angulaires, nous avons 
 Ces vitesses commandées sont définies dans le vecteur $\omega_c = [0.0, 0.1, 0.2, 0.4, 0.75 ,1.25, 2.0, 3.0, 4.0, 5.0]$.
 La sélection de ces vitesses a été faite dans le but d'évaluer une plus grande quantité de vitesses angulaires faibles et tenter d'observer le point de saturation des pneus.
 Afin d'éviter les phénomènes liés à la déformation du terrain pour les vitesses angulaires élevées, nous avons classé les éléments de $\omega_c$ de manière aléatoire.
-Pour ce qui est de la vitesse longitudinale commandée, celle-ci a été fixée à \SI{0.5}{\m\per\second} afin de limiter la longueur de l'expérience.
+Pour ce qui est de la vitesse longitudinale commandée, celle-ci a été fixée à \SI{0.5}{\m\per\second} afin de limiter la durée de l'expérience.
 Pour respecter l'hypothèse de régime permanent, chaque commande a été exécutée par le robot pour une durée de \SI{10}{\second}.
 
 \begin{figure}[htpb]

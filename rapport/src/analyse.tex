@@ -1,6 +1,6 @@
 \section{Analyse}~\label{sec:analyse}
 Dans cette section, nous analysons et discutons des résultats présentés dans la~\autoref{sec:resultats}.
-Eu premier lieu, nous exposons les limites des modèles linéaires et proposons des améliorations au protocole expérimental de ce projet dans la~\autoref{sec:ana_limites}.
+En premier lieu, nous exposons les limites des modèles linéaires et proposons des améliorations au protocole expérimental de ce projet dans la~\autoref{sec:ana_limites}.
 Deuxièmement, nous rappellons les avantages d'utiliser un modèle simple et argumentons que ceux-ci sont adéquats pour modéliser les forces subies pas les roues d'un \ac{VSS} dans la~\autoref{sec:ana_lineaire}.
 
 \subsection{Viabilité et limites des modèles et du protocole expérimental}~\label{sec:ana_limites}
@@ -10,19 +10,19 @@ Pour une vitesse angulaire commandée supérieure à \SI{2.0}{\radian\per\second
 Notre hypothèse pour expliquer ce phénomène est que le bruit de localization du véhicule entraîne une incertitude dans le calcul du centre de rotation instantané $\bm c_v$.
 Cette incertitude est transmise dans le calcul des angles de dérive, qui sont affichés à la~\autoref{fig:angles}.
 Une seconde explication pour ce phénomène est l'hypothèse que le point de cassure correspond au point de saturation du pneu du \ac{VSS} quand il opère sur le terrain identifié pour l'expérience.
-Une fois passé, le véhicule se trouve en dérappage, ce qui est connu comme un phénomène complexe à modéliser.
+Une fois passé, le véhicule se trouve en dérapage, ce qui est connu comme un phénomène complexe à modéliser.
 
 Nous observons donc une limite fonctionnelle des modèles de force de contact linéaires basés sur l'angle de dérive à une vitesse angulaire commandée de \SI{2.0}{\radian\per\second}.
 Dans l'optique où nous désirons opérer le \ac{VSS} à une vitesse angulaire supérieure, un modèle plus complexe devrait être étudié.
 Il est quand même important de noter que pour la grande majorité de leur temps d'opération, les \ac{VSS} ne tournent pas à une vitesse angulaire supérieure à \SI{2.0}{\radian\per\second}.
-En effet, pour un algorithme de navigation populaire dans la littérature, la vitesse angulaire d'opération est limitée à \SI{2.0}{\radian\per\second}~\citep{Huskic2019}.
+En effet, pour un algorithme de navigation populaire dans la littérature, la vitesse angulaire d'opération est limitée à \SI{1.0}{\radian\per\second}~\citep{Huskic2019}.
 Donc, dans l'optique où les \ac{VSS} ne sont pas opérés à une vitesse angulaire élevée, l'hypothèse d'utiliser un modèle de force de contact linéaire est bonne.
 
 Dans cette expérience, un grand nombre de vitesses angulaires faibles ont été évaluées.
 Toutefois, le point de cassure obervé dans la~\autoref{fig:acceleration} est un point d'intérêt autour duquel il serait intéressant de pousser l'évaluation expérimentale.
 Dans des expériences subséquentes, il serait intéressant de faire cette évaluation autour du point de cassure afin d'investiguer ce phénomène.
 De plus, cette expérience a été limitée à une vitesse longitudinale de \SI{0.5}{\meter\per\second} ainsi qu'à un type de terrain.
-Il serait donc intéressant de refaire cette expérience pour d'avantages de conditions de traction afin d'observer la position du point de cassure.
+Il serait donc intéressant de refaire cette expérience pour d'avantages de vitesses longitudinales et de conditions de traction afin d'observer la position du point de cassure.
 Une opération de calibration préalable pourrait même éventuellement être définie pour identifier le point de cassure et limiter la vitesse d'opération du véhicule en fonction de cette donnée.
 
 Il est également important de noter que les forces des contact estimées en fonction des vitesses de roues sont nulles, comme on peut voir sur la~\autoref{fig:acceleration}.
@@ -31,10 +31,10 @@ Le centre de rotation instantané $\bm c_v$ est donc estimé avec un modèle dif
 Comme ce modèle ne modélise pas la vitesse latérale, celle-ci est considérée comme nulle. 
 De cette manière, l'angle des roues 1 et 3 est identique, pareillement pour les roues 2 et 4.
 Ce phénomène peut être observé sur la~\autoref{fig:angles}.
-Le calcul de l'angle de dérive ou de la vitesse latérale des points de contact nécessite donc d'utiliser un modèle cinématique permettant de modéliser ce phénomène, comme celui présenté par~\citep{Seegmiller2014}.
+Le calcul de l'angle de dérive ou de la vitesse latérale des points de contact nécessite donc d'utiliser un modèle cinématique permettant de modéliser ce phénomène, comme celui présenté par~\citet{Seegmiller2014}.
 
-\subsection{Viabilité et limites des modèles de force de contact linéaires}~\label{sec:ana_lineaire}
-En premier lieu, nous mettons une emphase sur les avantages d'utiliser des modèles de force de contact linéaires pour la navigation à grande échelle.
+\subsection{Avantages des modèles de force de contact linéaires}~\label{sec:ana_lineaire}
+Pour conclure notre analyse, nous mettons une emphase sur les avantages d'utiliser des modèles de force de contact linéaires pour la navigation à grande échelle.
 Ces modèles sont rapides à calculer, ce qui est critique pour les algorithmes de navigation autonome qui doivent être exécutés en temps réel.
 De plus, dans une expérience précédente, nous avons analysé des modèles cinématiques et avons observé que les modèles ayant moins de paramètres sont en mesure de mieux généraliser sur une grande variété de mouvements de \ac{VSS}~\citep{Baril2020}.
 Ce phénomène semble être similaire pour les modèles dynamiques de \ac{VSS}. 

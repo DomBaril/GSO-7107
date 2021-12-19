@@ -21,7 +21,7 @@ Ce modèle ne permet pas de modéliser la vitesse latérale du robot, ce qui exp
 \end{figure}
 
 \subsection{Évaluation des forces}~\label{sec:forces}
-En premier, il est nécessaire d'évaluer les données qui vont en entrée du modèle de force de contact. 
+En premier, il est nécessaire d'évaluer les données qui servent d'entrées du modèle de force de contact. 
 En fonction des vitesses du corps du robot, la position du centre de rotation instantané est calculée en suivant l'\autoref{eqn:icr}.
 Ensuite, les angles de dérive de chaque roue sont évalués, ceux-ci sont montrés dans la~\autoref{fig:angles}.
 Dans cette figure, les angles de dérive $\gamma_i$ sont mesurés avec \ac{ICP} et modélisés en fonction des vitesses de roues et du modèle différentiel idéal.
@@ -60,6 +60,6 @@ Comme le modèle différentiel ne permet pas de vitesses latérales, la somme de
 	\label{fig:acceleration}
 \end{figure}
 
-Il est possible d'observer une faible disparité entre la force centripète et les forces calculées avec un modèle linéaire dans la~\author{fig:acceleration}.
+Il est possible d'observer une faible disparité entre la force centripète et les forces calculées avec un modèle linéaire dans la~\autoref{fig:acceleration}.
 De plus, il est possible d'observer un point de cassure à une vitesse angulaire commandée de \SI{2.0}{\radian\per\second}.
 À cette vitesse, il est possible d'observer un pic dans la force centripète, qui peut être modélisé avec les vitesses de contact latérales, mais pas avec l'angle de dérive.
